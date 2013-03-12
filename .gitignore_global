@@ -1,0 +1,8 @@
+[#]*[#]
+.\#*
+*~
+-.*.swp
+.DS_Store
+.~*[#]
+*.pyc
+IPython_crash_report.txt

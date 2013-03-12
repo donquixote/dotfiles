@@ -1,0 +1,5 @@
+[user]
+	name = Kasper Souren
+	email = kasper@guaka.org
+[core]
+        excludesfile = ~/.gitignore_global
