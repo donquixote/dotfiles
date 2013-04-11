@@ -6,3 +6,4 @@
 .~*[#]
 *.pyc
 IPython_crash_report.txt
+npm-debug.log
