@@ -32,3 +32,5 @@
 (setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab)) ;; only show bad whitespace
 
 (setq-default indent-tabs-mode nil)
+
+(setq-default vc-follow-symlinks t)
