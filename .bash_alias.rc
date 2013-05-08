@@ -1,1 +1,2 @@
-alias pwgen='pwgen -ycn 15'
+alias pwgen='pwgen -cn 15'
+alias scrcd='screen -X eval "chdir $PWD"'
