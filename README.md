@@ -17,6 +17,8 @@ cd dotfiles
 
 If you want your own repo, just `mv` files you want to add into `~/dotfiles`
 
+Make sure you never put `.bash_history` or `.ssh/*` in a public repo.
+
 ## License
 
 Reuse this stuff however you want.
