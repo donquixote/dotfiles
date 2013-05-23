@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 # Backup whatever's there
 mkdir -p ~/.dotbackups/
 
-rm .[a-z]*~
+rm -f .[a-z]*~
 for dot in .[a-z]*; do
     if [ "$dot" != ".git" ]; then
 	mv ~/$dot ~/.dotbackups/
@@ -14,4 +14,6 @@ for dot in .[a-z]*; do
 done
 
 cd
-ln -s "$(dirname "$0")"/bin
+if [ ! -e ~/bin ]; then
+    ln -s "$(dirname "$0")"/dotfiles/bin
+fi
