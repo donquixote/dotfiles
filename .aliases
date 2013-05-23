@@ -56,3 +56,7 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 # http://www.rubycoloredglasses.com/2012/03/locate-and-updatedb-with-homebrew/
 # I simply setup the following alias in .bash_profile and this did the trick. This is using the built in locate database provided with Mac OS X Snow Leopard.
 alias updatedb='sudo /usr/libexec/locate.updatedb'
+
+
+
+alias wgetnocheck='wget --no-check-certificate'
