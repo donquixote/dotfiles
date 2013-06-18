@@ -14,6 +14,7 @@
 
 (add-to-list 'auto-mode-alist '("\\.css$" . css-mode))
 (add-to-list 'auto-mode-alist '("\\.less$" . css-mode))
+(add-to-list 'auto-mode-alist '("\\.scss$" . css-mode))
 (setq css-indent-offset 2)
 
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
