@@ -1,3 +1,6 @@
 --type-set=conf=.coffee,.less,.module,.install
 --ignore-dir=dumps
 --ignore-dir=TRASH
+--ignore-dir=node_modules
+--ignore-dir=assets
+--ignore-dir=vendor
