@@ -1,5 +1,6 @@
 alias pwgen='pwgen -cn 15'
 alias scrcd='screen -X eval "chdir $PWD"'
+alias tmcd='tmux set-option default-path "$PWD"'
 alias today='date +%Y-%m-%d'
 alias now='date +%Y-%m-%d-%H%M%S'
 
