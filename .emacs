@@ -35,3 +35,7 @@
 (setq-default indent-tabs-mode nil)
 
 (setq-default vc-follow-symlinks t)
+
+;; Goto-line short-cut key                                                                                                   
+;; http://www.stylesen.org/emacs_goto_line
+(global-set-key "\C-l" 'goto-line)
