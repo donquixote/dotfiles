@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-my .dot files
+<a href="http://guaka.org/">guaka</a>'s .dot files
 
 Nothing special, but I recommend everyone to do the same, my shell
 life has become much more convenient since I started this.

@@ -1,3 +1,4 @@
+
 alias pwgen='pwgen -cn 15'
 alias scrcd='screen -X eval "chdir $PWD"'
 alias tmcd='tmux set-option default-path "$PWD"'
@@ -6,6 +7,11 @@ alias now='date +%Y-%m-%d-%H%M%S'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias osxupdate='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update'
+
+
+if [ -z $(which ack) ]; then 
+    alias ack='ack-grep'
+fi
 
 
 # Detect which `ls` flavor is in use
