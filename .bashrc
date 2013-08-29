@@ -109,9 +109,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f .profile ]; then
-    source ~/.profile
-fi
+# Pay attention to circles
+#if [ -f .profile ]; then
+#    source ~/.profile
+#fi
 
 if [ -f .aliases ]; then
     source ~/.aliases
