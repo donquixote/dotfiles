@@ -1,3 +1,7 @@
+--type-set=php=.install,.inc,.module,.engine,.profile
+--type-set=ini=.ini,.info
+--type-set=drupal=.php,.inc,.module,.install,.info,.engine,.make
+
 --type-set=conf=.coffee,.less,.module,.install
 --ignore-dir=dumps
 --ignore-dir=TRASH
