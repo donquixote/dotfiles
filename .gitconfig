@@ -25,6 +25,7 @@
 
 [core]
   excludesfile = ~/.gitignore_global
+  filemode=false
 
 [alias]
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
