@@ -108,12 +108,12 @@ if [ -f .aliases ]; then
     source ~/.aliases
 fi
 
-source /etc/bash_completion.d/git
+# source /etc/bash_completion.d/git
 
-GIT_PS1_SHOWUNTRACKEDFILES=true
-GIT_PS1_SHOWSTASHEDSTATE=true
-GIT_PS1_SHOWUPSTREAM="auto"
-GIT_PS1_SHOWDIRTYSTATE=true
-PS1='\u@\h:\w$(__git_ps1 " \[\033[01;32m\](%s)\[\033[00m\]")\$ '
+# GIT_PS1_SHOWUNTRACKEDFILES=true
+# GIT_PS1_SHOWSTASHEDSTATE=true
+# GIT_PS1_SHOWUPSTREAM="auto"
+# GIT_PS1_SHOWDIRTYSTATE=true
+# PS1='\u@\h:\w$(__git_ps1 " \[\033[01;32m\](%s)\[\033[00m\]")\$ '
 
 
