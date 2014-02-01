@@ -13,8 +13,10 @@ set mark-symlinked-directories on
 # commands (i.e. more intelligent Up/Down behavior)
 #"\e[B": history-search-forward
 "\e[5": history-search-forward
+"\e[6~": history-search-forward
 #"\e[A": history-search-backward
 "\e[6": history-search-backward
+"\e[5~": history-search-backward
 
 # Do not autocomplete hidden files unless the pattern explicitly begins with a dot
 set match-hidden-files off
