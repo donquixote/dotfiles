@@ -1,7 +1,9 @@
 dotfiles
 ========
 
-<a href="http://guaka.org/">guaka</a>'s .dot files
+[donquixote](http://dqxtech.net)'s .dot files)
+
+Inspired by and forked from [guaka's dotfiles](https://github.com/guaka/dotfiles)
 
 Nothing special, but I recommend everyone to do the same, my shell
 life has become much more convenient since I started this.
@@ -10,7 +12,7 @@ life has become much more convenient since I started this.
 
 ```
 cd
-git clone git@github.com:guaka/dotfiles.git
+git clone git@github.com:donquixote/dotfiles.git
 cd dotfiles
 ./install.sh
 ```
