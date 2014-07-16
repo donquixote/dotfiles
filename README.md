@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-[donquixote](http://dqxtech.net)'s .dot files)
+[donquixote](http://dqxtech.net)'s .dot files
 
 Inspired by and forked from [guaka's dotfiles](https://github.com/guaka/dotfiles)
 
