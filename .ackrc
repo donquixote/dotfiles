@@ -8,3 +8,4 @@
 --ignore-dir=node_modules
 --ignore-dir=assets
 --ignore-dir=vendor
+--ignore-dir=.idea
