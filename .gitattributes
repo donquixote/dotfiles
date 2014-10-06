@@ -1,2 +1,9 @@
 # Automatically normalize line endings for all text-based files
 # * text=auto
+
+# Special diff mode for php.
+# See http://stackoverflow.com/questions/7344577/is-there-a-way-to-ask-git-diff-to-show-the-method-name-instead-of-the-class-name
+*.php diff=php
+*.module diff=php
+*.install diff=php
+*.inc diff=php
