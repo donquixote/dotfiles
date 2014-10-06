@@ -26,6 +26,7 @@
 [core]
   excludesfile = ~/.gitignore_global
   fileMode = false
+  attributesfile = ~/.gitattributes
 
 [alias]
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
